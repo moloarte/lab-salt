@@ -1,6 +1,0 @@
-parameters:
-  location:
-    address: Somewhere, 010101 Kiev
-    rack: 1.11
-  local_admin:
-    email: admin@kiev.example.org

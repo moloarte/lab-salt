@@ -1,8 +1,0 @@
-classes:
-  - example.org
-  - debian.release.jessie
-  - hosted@kiev
-  - salt.minion
-environment: prod
-parameters:
-  rgb_colour_code: "000000"

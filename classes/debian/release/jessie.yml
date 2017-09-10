@@ -1,4 +1,0 @@
-classes:
-  - debian.suite.testing
-parameters:
-  debian_codename: jessie

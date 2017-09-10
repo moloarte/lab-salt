@@ -1,5 +1,0 @@
-classes:
-  - mail
-parameters:
-  mail:
-    role: server
