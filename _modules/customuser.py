@@ -1,3 +1,4 @@
+# Example extracted from Learning Saltstack - Second Edition
 def users_as_csv():
     '''
     Retrieve the users from a minion, formatted as comma-separated-values (CSV)

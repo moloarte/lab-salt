@@ -2,5 +2,5 @@ applications:
   - salt_minion
 parameters:
   salt_minion:
-    master: salt-master.example.org
-    master_fingerprint: ed:38:43:88:4b:2d:22:04:76:60:95:18:2e:cd:cf:bf:cc:63:20:c9
+    master: saltmaster01.oslo.ch
+    master_fingerprint: 7e:5f:54:8c:ed:2f:ce:f4:e5:4b:b4:f0:68:95:5d:b1:6b:8c:38:42:50:d9:96:74:cb:e3:f8:7c:e4:ab:10:1a
