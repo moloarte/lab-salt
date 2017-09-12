@@ -1,9 +1,9 @@
 location:
   grains.present:
     {% if grains['domain'] == "oslo.ch" %}
-    - value: Kiew
+    - value: Kiev
     {% elif grains['domain'] == "example.com" %}
-    - value: Kansas
+    - value: Amsterdam 
     {% endif %}
 
 server_type:
