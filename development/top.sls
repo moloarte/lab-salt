@@ -1,6 +1,6 @@
 development:
   '*':
     - user
-  'web.dev.oslo.ch':
+  'ipa.oslo.ch':
     - match: list
     - hostconfig
