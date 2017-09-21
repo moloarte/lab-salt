@@ -21,3 +21,14 @@ generic_jenkins_user:
     - require:
       - group: {{ pillar['jenkins_group']['group_name'] }}
 
+zabbix_user:
+  user.present:
+    - name: {{ pillar['zabbix_user']['user_name'] }}
+    - fullname: Zabbix Monitoring User
+    - shell: /bin/bash
+    - home: /home/tech/{{ pillar['zabbix_user']['user_name'] }}
+    - uid: {{ pillar['zabbix_user']['user_id'] }}
+    - gid: {{ pillar['zabbix_group']['group_id'] }}
+    - password: {{ pillar['zabbix_user']['user_passwd'] }}
+    - require:
+      - group: {{ pillar['zabbix_group']['group_name'] }}

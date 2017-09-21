@@ -9,3 +9,7 @@ jenkins_user:
   user_id: 2001
   user_passwd: '$1$NNTmEkPc$accotn129NokBn/d9C224/'
 
+zabbix_user:
+  user_name: zabbix
+  user_id: 2002
+  user_passwd: '$1$NNTmEkPc$accotn129NokBn/d9C224/'
