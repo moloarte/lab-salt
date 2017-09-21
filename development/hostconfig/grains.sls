@@ -9,8 +9,10 @@ location:
 server_type:
   grains.present:
     {% if 'ipa' in grains['host'] %}
-    - value: ipa
+    - value: ipa_server
     {% elif 'dbs' in grains['host'] %}
-    - value: db
+    - value: db_server
+    {% elif 'web' in grains['host'] %}
+    - value: web_server
     {% endif %}
 
